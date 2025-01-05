@@ -1,0 +1,30 @@
+.language-switcher {
+    display: flex;
+    gap: 2px;
+    justify-content: center;
+    align-items: center;
+}
+
+.language-button {
+    background-color: transparent;
+    color: #ffffff;
+    border: 2px solid #ffffff;
+    padding: 4px 6px;
+    font-size: 14px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.language-button:hover {
+    transform: scale(1.05);
+}
+
+.language-button:focus {
+    outline: none;
+}
+
+.language-button.active {
+    background-color: #4dd2f1;
+    color: white;
+}
