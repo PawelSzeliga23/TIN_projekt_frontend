@@ -17,8 +17,10 @@ const SummitList = ({role}) => {
     const {regions} = useFetchRegions();
     const token = localStorage.getItem("accessToken");
     const {personalSummits, setPersonalSummits} = useFetchPersonalSummits(role === "user")
+    const screenWidth = window.innerWidth - 60;
 
-    const itemsPerPage = 14;
+    const itemsPerPage = Math.floor(screenWidth/280 * 2);
+    console.log(itemsPerPage)
 
     const filteredSummits = summits.filter((summit) =>
         summit.name.toLowerCase().includes(searchQuery.toLowerCase())

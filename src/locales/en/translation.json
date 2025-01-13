@@ -36,5 +36,12 @@
   "searchSum" : "Search summit...",
   "addSummit" : "Add New Summit",
   "moreInfo" : "More information...",
-  "title" : "Title"
+  "title" : "Title",
+  "homeTitle" : "Discover beautiful peaks in Poland",
+  "homeDesc" : "Welcome to our Virtual Peak Library! Here you will find a rich database about the most beautiful mountains in Poland, from the majestic Giewont to the picturesque peaks of the Sudetes. Discover, learn and plan your mountain adventures.",
+  "optionDesc" : "The most important functionalities of the website :",
+  "browsePeaks": "Browse available peaks",
+  "addComments": "Add comments to summits",
+  "addToList": "Add peaks to your list",
+  "viewYourList": "View your favorite summits list"
 }

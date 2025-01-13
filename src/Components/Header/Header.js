@@ -20,13 +20,14 @@ const Header = () => {
 
     const data = jwtDecode(accessToken);
     const role = data['http://schemas.microsoft.com/ws/2008/06/identity/claims/role'];
+    const name = data['http://schemas.xmlsoap.org/ws/2005/05/identity/claims/name'];
 
     if (role === 'admin') {
         return <HeaderAdmin/>;
     }
 
     if (role === 'user') {
-        return <HeaderClient/>;
+        return <HeaderClient username={name}/>;
     }
 
     return <HeaderPublic/>;

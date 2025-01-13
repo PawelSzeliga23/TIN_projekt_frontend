@@ -16,7 +16,6 @@
     padding: 8px;
 }
 
-
 nav {
     display: flex;
     justify-content: space-between;
@@ -35,6 +34,8 @@ nav ul {
 nav li {
     display: flex;
     align-items: center;
+    font-size: 20px;
+    gap: 5px;
 }
 
 nav li a {

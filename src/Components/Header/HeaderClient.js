@@ -5,7 +5,7 @@ import './Header.css'
 import {useTranslation} from "react-i18next";
 import LanguageSwitch from "../LanguageSwitch/LanguageSwitch";
 
-const HeaderPublic = () => {
+const HeaderPublic = ({username}) => {
     const {t} = useTranslation();
 
     return (
@@ -48,12 +48,12 @@ const HeaderPublic = () => {
                             </span>
                             {t('logout')}
                         </Link></li>
-                        <li><Link to="/profile">
-                            <span className="material-symbols-outlined">
-                            account_circle
-                            </span>
-                            {t('profile')}
-                        </Link></li>
+                        <li>
+                                <span className="material-symbols-outlined">
+                                account_circle
+                                </span>
+                                    {username}
+                        </li>
                     </ul>
                 </div>
             </nav>

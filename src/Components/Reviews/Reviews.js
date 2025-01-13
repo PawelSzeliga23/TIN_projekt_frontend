@@ -84,7 +84,7 @@ const Reviews = ({role, summitId}) => {
     return (
         <div className="reviews-container">
             <div className="review-top">
-                {role === "user" && (
+                {(role === "user" || role === "del") && (
                     <div className="add-review-container">
                         <form onSubmit={addReview} className="review-form">
                             <div className="review-row">

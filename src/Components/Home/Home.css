@@ -1,0 +1,89 @@
+.home-head {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    width: 100%;
+}
+
+.home-title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70vh;
+    text-align: center;
+    font-size: 50px;
+}
+
+.home-summit-show {
+    margin-top: 100px;
+    position: relative;
+    display: flex;
+    width: 100%;
+    overflow: hidden;
+    -webkit-mask-image: -webkit-linear-gradient(0deg, transparent, #fff 10%, #fff 90%, transparent);
+}
+
+.home-summit-show div {
+    padding-top: 4px;
+    white-space: nowrap;
+    animation: animate 50s linear infinite;
+}
+
+.home-summit-show div img {
+    width: 800px;
+    height: 500px;
+    scale: 0.99;
+    border-radius: 10px;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.6);
+}
+
+@keyframes animate {
+    0% {
+        transform: translateX(0%);
+    }
+    100% {
+        transform: translateX(-100%);
+    }
+}
+.home-description {
+    padding: 20px;
+    font-size: 30px;
+    display: flex;
+    margin: 20px;
+    justify-self: center;
+    text-align: center;
+    color: white;
+}
+.home-site-options{
+    padding: 20px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+.options-images{
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 1);
+    width: 50%;
+    overflow: hidden;
+    border-radius: 20px;
+}
+.options-images img{
+    width: 100%;
+}
+.options-desc{
+}
+.desc-head{
+    display: flex;
+    margin: 20px;
+    font-size: 30px;
+    justify-self: center;
+    text-align: center;
+    color: white;
+}
+.options-desc ul li{
+    margin-bottom: 30px;
+    margin-left: 10px;
+    font-size: 20px;
+    color: white;
+}
