@@ -43,5 +43,10 @@
   "browsePeaks": "Browse available peaks",
   "addComments": "Add comments to summits",
   "addToList": "Add peaks to your list",
-  "viewYourList": "View your favorite summits list"
+  "viewYourList": "View your favorite summits list",
+  "about1" : "Our library of Polish mountain peaks is a hub that connects mountain adventure enthusiasts and nature lovers. We gather knowledge about the highest and most beautiful peaks in Poland, creating a unique source of information for tourists, enthusiasts, and researchers. Our goal is to popularize mountain tourism and educate about its history and cultural significance.",
+  "about2" : "We aim to help everyone discover the beauty of Polish mountains, regardless of experience or age. In our library, you will find detailed trail descriptions, stories related to mountain regions, as well as maps and practical tips. We promote responsible tourism and respect for nature, believing that mountains should be accessible to all while being properly protected.",
+  "about3" : "Our library is not just a collection of books but also a space for meetings and exchanging experiences. We organize workshops, lectures, and exhibitions that showcase the richness of Polish mountains. By visiting us, you gain access to knowledge you won't find anywhere else and have the opportunity to meet other mountain hiking enthusiasts.",
+  "mission" : "Our Mission",
+  "visit" : "Why Visit Us"
 }

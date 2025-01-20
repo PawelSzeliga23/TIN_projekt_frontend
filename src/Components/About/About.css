@@ -1,0 +1,32 @@
+.about-box h4 {
+    color: white;
+    font-size: 3rem;
+    font-weight: bold;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.about-box p {
+    color: #ffffff;
+    font-size: 2rem;
+    font-weight: normal;
+    flex-grow: 1;
+    margin: 10px;
+    text-align: center;
+    border-radius: 10px;
+    background-color: rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+}
+
+.about-box {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    padding: 20px;
+}
+.about-box img {
+    width: 800px;
+    height: auto;
+    border-radius: 10px;
+}
