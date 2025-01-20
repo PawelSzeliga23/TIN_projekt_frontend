@@ -22,4 +22,4 @@ Aplikacja frontendowa stworzona w frameworku React, będąca częścią projektu
 ## Instalacja
 1. Sklonuj repozytorium:
    ```bash
-   git clone https://github.com/TwojLogin/TwojeRepozytorium.git
+   git clone https://github.com/PawelSzeliga23/TIN_projekt_frontend.git
