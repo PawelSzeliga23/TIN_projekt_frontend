@@ -1,70 +1,25 @@
-# Getting Started with Create React App
+# Aplikacja Frontendowa - Biblioteka Szczytów Polskich Gór
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Projekt semestralny z przedmiotu **Technologie Internetowe (TIN)**.
 
-## Available Scripts
+## Opis
+Aplikacja frontendowa stworzona w frameworku React, będąca częścią projektu semestralnego. Celem projektu jest stworzenie dynamicznej aplikacji SPA (Single Page Application) dla **Biblioteki Szczytów Polskich Gór**. Aplikacja umożliwia przeglądanie, wyszukiwanie i zarządzanie danymi o najwyższych szczytach górskich w Polsce. Została zaprojektowana z wykorzystaniem nowoczesnych technologii frontendowych oraz integracji z aplikacją backendową opartą na REST API.
 
-In the project directory, you can run:
+## Funkcjonalności
+  - Interaktywne UI umożliwiające zarządzanie zasobami (szczyty górskie, regiony, komentarze).
+  - Integracja z backendem za pomocą zapytań REST API w celu pobierania i zarządzania danymi.
+  - Obsługa użytkowników (rejestracja, logowanie).
+  - Wykorzystanie React Router do nawigacji między widokami.
+  - Walidacja formularzy (np. podczas dodawania nowych szczytów, regionów, komentarzy).
+  - Tłumaczenia aplikacji z użyciem i18n.
+  - Obsługa paginacji za pomocą `react-paginate` dla długich list szczytów.
 
-### `npm start`
+## Wymagania
+- Node.js (preferowana wersja 16.x lub wyższa).
+- npm lub yarn.
+- Przeglądarka internetowa wspierająca nowoczesne technologie (np. Chrome, Firefox, Edge).
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## Instalacja
+1. Sklonuj repozytorium:
+   ```bash
+   git clone https://github.com/PawelSzeliga23/TIN_projekt_frontend.git
