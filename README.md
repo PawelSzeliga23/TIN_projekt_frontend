@@ -23,3 +23,6 @@ Aplikacja frontendowa stworzona w frameworku React, będąca częścią projektu
 1. Sklonuj repozytorium:
    ```bash
    git clone https://github.com/PawelSzeliga23/TIN_projekt_frontend.git
+![Ekran](screenshots/img.png)
+![Ekran](screenshots/img1.png)
+![Ekran](screenshots/img2.png)
