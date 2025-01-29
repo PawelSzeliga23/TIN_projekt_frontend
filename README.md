@@ -24,5 +24,5 @@ Aplikacja frontendowa stworzona w frameworku React, będąca częścią projektu
    ```bash
    git clone https://github.com/PawelSzeliga23/TIN_projekt_frontend.git
 ![Ekran](screenshots/img.png)
-![Ekran](screenshots/img1.png)
-![Ekran](screenshots/img2.png)
+![Ekran](screenshots/img_1.png)
+![Ekran](screenshots/img_2.png)
