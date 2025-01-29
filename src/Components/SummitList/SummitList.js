@@ -19,8 +19,8 @@ const SummitList = ({role}) => {
     const {personalSummits, setPersonalSummits} = useFetchPersonalSummits(role === "user")
     const screenWidth = window.innerWidth - 60;
 
-    const itemsPerPage = Math.floor(screenWidth/280 * 2);
-    console.log(itemsPerPage)
+    //*2 for better design
+    const itemsPerPage = Math.floor(screenWidth/280);
 
     const filteredSummits = summits.filter((summit) =>
         summit.name.toLowerCase().includes(searchQuery.toLowerCase())
